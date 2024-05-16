@@ -28,7 +28,7 @@ vA = 0.4 * pow(G * mB * xA, 0.5) / (xA + xB)
 
 if centre_mB: sB_trail_curve = curve(color=color.yellow)
 
-# momenti t=0
+# quantità di moto t=0
 sA.p = mA * vA * vector(0, 1, 0)
 sB.p = -sA.p
 

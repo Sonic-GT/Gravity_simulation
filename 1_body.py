@@ -28,7 +28,7 @@ sCM = sphere(pos=vector(0, 0, 0), radius=rCM, color=color.cyan, make_trail=True)
 vA = 0.4 * pow(G * mB * xA, 0.5) / (xA + xB)
 vB = mA / mB * vA
 
-# momenti t=0
+# quantità di moto t=0
 sBody.p = mBody * (vA + vB) * vector(0,1,0)
 sCM.p = 0
 

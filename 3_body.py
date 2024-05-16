@@ -29,7 +29,7 @@ sB = sphere(pos=vector(-xB, 0, -zB), radius=rB, color=color.cyan, make_trail=Tru
 sC = sphere(pos=vector(0, 0, zC), radius=rC, color=color.magenta, make_trail=True)
 vA = pow(G * mB * xA, 0.5) / (xA + xB)
 
-# momenti t=0
+# quantità di moto t=0
 sA.p = mA * vA * vector(0, 1, 0)
 sB.p = -sA.p
 sC.p = vector(0, 0, 0)
